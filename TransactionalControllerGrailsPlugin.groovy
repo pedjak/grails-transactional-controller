@@ -28,7 +28,7 @@ class TransactionalControllerGrailsPlugin {
     def pluginExcludes = [
             "grails-app/views/error.gsp"
     ]
-    def dependsOn = [controllers:grails.util.GrailsUtil.getGrailsVersion()]
+    def dependsOn = [controllers: "1.3.5 > *"]
     def observe = ['controllers']
     def loadAfter = ['controllers']
     
