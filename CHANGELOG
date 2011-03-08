@@ -1,0 +1,9 @@
+0.1.1
+
+FIX: although the plugin requires Grails version 1.1 or above, 
+the generated plugin descriptor contained a hard-coded dependency
+to the Grails version used to compile the plugin.
+
+0.1
+
+initial version
